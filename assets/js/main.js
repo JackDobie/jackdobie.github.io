@@ -186,5 +186,4 @@
 
 				}
 			});
-	GitHubCalendar("#github-graph", "JackDobie");
 })(jQuery);
