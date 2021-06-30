@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <!--
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/bootstrap-grid.css" />
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -31,12 +32,31 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Shooter</h1>
-							<span class="image fit"><img src="../images/portfolio/shooter.png" alt="" /></span>
-							<p>This is a first person shooter game that I made in Unity during my second year at college. It has movement, ammo systems, multiple weapons, a basic AI system and multiple levels.<br>
-							The coding, character models and animations were all done by me.</p>
+							<h1 class="major">AI Application</h1>
+							<span class="image fit"><img src="..\images\portfolio\aiframework.png" alt="" /></a></span>
+							<p>
+								This project has vehicles that use steering behaviours, pathfinding, and decision making.
+								<br> If the two cars colldie, they will crash and the blue car's speed will be massively reduced for a few seconds.
+
+								<h3>Steering:</h3>
+								The player controls the blue car, while the red car moves left and right across the screen.
+								<br>Seek - car moves towards the point where the mouse clicks.
+								<br>Flee - car moves away from the red car to a certain distance.
+								<br>Arrive - car slows down to a stop as it approaches the point where the mouse clicks.
+								<br>Wander - car moves in a random direction.
+								<br>Obstacle avoidance - car tries to avoid hitting the red car.
+								<br>Pursuit - steers towards the red car.<br><br>
+								
+								<h3>Pathfinding:</h3>
+								The car moves around the track using A* pathfinding. Nodes can be toggled to be visible using the button on the UI.<br><br>
+
+								<h3>Decision making:</h3>
+								The two cars pathfind around the track, but the blue car can overtake the red car if it is behind.
+
+								<br><br><a href=https://github.com/JackDobie/AI-Assignment/releases target="_blank">This project can be downloaded here <i class="fas fa-external-link-alt"></i></a>
+							</p>
 							<ul class="actions">
-								<li><a href="../portfolio" class="button">Portfolio</a></li>
+								<li><a href="../portfolio" class="button">Return to portfolio</a></li>
 							</ul>
 						</div>
 					</section>
